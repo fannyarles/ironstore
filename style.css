@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
 *{
     transition: all 1s;
 }
@@ -5,7 +7,7 @@
 
 body{
     padding: 10px;
-    background-color: lightseagreen;
+    background-color: #CAD7D7;
 
 }
 
@@ -14,9 +16,14 @@ section{
     flex-direction: row;
 }
 
+h2 {
+    font-family: "Lora";
+}
 
 img {
-    width: 50px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 
@@ -29,12 +36,30 @@ img {
 }
 
 
+li {
+    list-style: none;
+    margin: 10px auto;
+}
 
+.item-infos {
+    display: flex;
+    align-items: center;
+}
 
+span.item-name {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
 
-
-
-
+span.item-price {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 8px;
+    font-size: 1.2em;
+    background-color: #982B3C;
+    border-radius: 5px;
+    color: white;
+}
 
 h1{
     color:#7c32ff;
